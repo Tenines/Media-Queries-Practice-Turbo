@@ -1,0 +1,172 @@
+/* ----------------------------------------
+
+Styles for Media Queries Practice Exercise
+Author: Your Name Here 
+
+----------------------------------------- */
+*{ box-sizing: border-box;}
+
+
+    
+
+[class^="b"] {
+    color: white;
+    font-size: large;
+    text-align: center;
+    text-shadow: 4px 4px 0 black;
+    padding: 10px;
+}
+
+.b1 {background: red;}
+.b2 {background: magenta;}
+.b3 {background: blueviolet;}
+.b4 {background: purple;}
+.b5 {background: royalblue;}
+.b6 {background: cornflowerblue;}
+.b7 {background: green;}
+.b8 {background: greenyellow;}
+.b9 {background: yellowgreen;}
+.b10 {background: yellow;}
+
+.flex-container {
+    border: 10px solid rgb(255, 0, 0);
+}
+
+.flex-container {
+    height: auto;
+;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+  }
+  .b1 {
+    width: 99.3%;
+  }
+  
+  .b2,.b3,.b4 {
+    width: 32.3%;
+  }
+
+  .b5 {
+    width: 49.3%;
+  }
+  .b6 { 
+    width: 49.3%;
+  }
+.b7,.b8,.b9,.b10 {
+    width: 24.3%;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    [class^="b"] {
+        color: white;
+        font-size: medium;
+        text-align: center;
+        text-shadow: 4px 4px 0 black;
+        padding: 10px;
+    }
+    
+    .b1 {background: red;}
+    .b2 {background: blue;}
+    .b3 {background: purple;}
+    .b4 {background: blueviolet;}
+    .b5 {background: maroon;}
+    .b6 {background: cornflowerblue;}
+    .b7 {background: royalblue;}
+    
+    .flex-container {
+        border: 10px solid rgb(0, 233, 144);
+    }
+    
+    .flex-container {
+        height: auto;
+  
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-around;
+      }
+      .b1 {
+        width: 99.3%;
+      }
+      
+      .b2,.b3 {
+        width: 49.3%;
+      }
+      .b4 {
+        width: 49.3%;
+      }
+      .b5{
+        width: 49.3%;
+      }
+      .b6 {
+        width: 49.3%;
+      }
+      .b7 {
+        width: 49.3%;
+      }
+      .b8,.b9,.b10 {
+        width: 32.3%;
+    }
+    
+}
+
+
+
+
+@media screen and (max-width: 640px) {
+    [class^="b"] {
+        color: white;
+        font-size: small;
+        text-align: center;
+        text-shadow: 4px 4px 0 black;
+        padding: 10px;
+    }
+    
+    .b1 {background: red;}
+    .b2 {background: blue;}
+    .b3 {background: purple;}
+    .b4 {background: blueviolet;}
+    .b5 {background: maroon;}
+    .b6 {background: cornflowerblue;}
+    .b7 {background: royalblue;}
+    
+    .flex-container {
+        border: 10px solid rgb(68, 0, 255);
+    }
+    
+    .flex-container {
+        height: auto;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-around;
+      }
+      .b1 {
+        width: 99.3%;
+      }
+      
+      .b2,.b3 {
+        width: 49.3%;
+      }
+    
+      .b4 {
+        width: 99.3%;
+      }
+      .b5{
+        width: 99.3%;
+      }
+      .b6 {
+        width: 99.3%;
+      }
+      .b7,.b8,.b9,.b10 {
+        width: 99.3%;
+    }
+    
+}
