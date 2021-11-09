@@ -1,3 +1,2 @@
 # Media-Queries-Practice-Turbo
-Turbo
-Giga
+Another timeless classic from Robert Westley "Strongman" Flath
